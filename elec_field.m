@@ -1,7 +1,7 @@
 function [Ex,Ey]=elec_field(m,n,e,d1,d2,v)
 V=matriz_pot(m,n,e,d1,d2,v);
 [Ex,Ey]=gradient(-1*V); %Maxwell%;
-contourf(V,100,'none')
+contourf(V,100)
 colorbar
 hold on
 quiver(Ex,Ey,'k')
