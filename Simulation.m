@@ -8,5 +8,5 @@ h=floor(h);
 e= input('Enter the relative electric permittivity of the dielectric material: ');
 v= input('Enter the voltage difference between the electrodes (kV): ');
 d1= floor((m-d)/2);
-[Ex,Ey]=elec_field(h,d,e,d1,d1,v/2);
+[Ex,Ey]=elec_field(h-2,d,e,d1,d1,v/2);
 return
