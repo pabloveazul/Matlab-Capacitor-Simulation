@@ -7,8 +7,9 @@ hold on
 quiver(Ex,Ey,'k')
 E= permitivity_matrix(m,n,e,0); %Zones where is the dielectric material%
 spy(E,'xr',1.7)
-title ('Electric Field and Electric Potential in the Plane XY');
-xlabel('X(mm)')
-ylabel('Y(mm)')
+title ('Electric Field and Electric Potential (kV) in the Plane XY');
+xlabel('X(5 mm)')
+ylabel('Y(5 mm)')
+legend('Electric Potential', 'Electric Field', 'Dielectric Material')
 hold off
 
