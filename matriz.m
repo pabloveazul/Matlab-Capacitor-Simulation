@@ -1,5 +1,5 @@
 function M= matriz(h,d1,d2,e)
-E=permitivity_matrix(h,d2,e,8.85);
+E=permittivity_matrix(h,d2,e,8.85);
 r=floor((50-h)/2); 
 s=floor((50-d1)/2);
 M=zeros(2500);
